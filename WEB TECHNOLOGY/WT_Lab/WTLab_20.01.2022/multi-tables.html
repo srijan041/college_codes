@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Tables</title>
+    <style>
+        #table5 {
+            border-top: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            margin: 0;
+            padding: 0;
+            border-spacing: 0;
+            text-align: center;
+        }
+
+        #table5 td {
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            margin: 0;
+            padding: 0;
+            width: 50px;
+        }
+
+        #table5 tr {
+            height: 22px;
+        }
+
+        .first-row {
+            background-color: red;
+        }
+
+        .second-row {
+            background-color: orange;
+        }
+
+        .third-row {
+            background-color: yellow;
+        }
+
+        .forth-row {
+            background-color: green;
+        }
+
+        .fifth-row {
+            background-color: cornflowerblue;
+        }
+
+        .sixth-row {
+            background-color: blue;
+        }
+
+        .seventh-row {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Table 5.1</h1>
+    <table border="1" style="height: 100px; width: 240px;">
+        <tr>
+            <td colspan="3">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td rowspan="2">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="3">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h1>Table 5.3</h1>
+    <table border="1">
+        <tr>
+            <td rowspan="2" colspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2" colspan="2"> Red eyes</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+            <td colspan="2">males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td colspan="2">Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <h1>Table 5.4</h1>
+    <table>
+        <tr>
+            <td rowspan="2" colspan="2" style="background-color: rgb(184, 178,
+        178);">Monday</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(184, 178,
+        178);">Tuesday</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(184, 178,
+        178);">Wednesday</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(184, 178,
+        178);">Thursday</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(184, 178,
+        178);">Friday</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(184, 178,
+        178);">Saturday</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(184, 178,
+        178);">Sunday</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim<br>06:30-10:30</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim<br>06:30-09:00</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim<br>06:30-09:00</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim<br>06:00-11:15</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim<br>06:30-09:00</td>
+            <td rowspan="2" colspan="2" style="background-color: greenyellow;">Lane
+                Swim<br>06:30-09:00</td>
+            <td rowspan="2" colspan="2" style="background-color: greenyellow;">Lane
+                Swim<br>06:30-09:00</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="2" colspan="2" style="background-color: rgb(211, 138,
+        138);">Aquacise<br>10:30-11:15</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(177, 87, 87);">Aqua
+                Jog<br>09:00-10:00</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(65, 231,
+        154);">Education Swimming Lessons<br>09:00-12:00</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(177, 87,
+        87);">Aquacise<br>11:15-12:00</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(65, 231,
+        154)">Education Swimming Lessons<br>09:00-12:00</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(240, 127,
+        75);">Oldham Active Kids Swimming Lessons<br>09:00-13:00</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim<br>09:00-11:00</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="2" colspan="2" style="background-color: greenyellow;">Lane
+                Swim<br>1:30-13:00</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(177, 87, 87);">Parent
+                & Baby<br>09:30-10:15</td>
+            <td rowspan="2" colspan="2" style="background-color: greenyellow;">Lane
+                Swim<br>11:30-13:00</td>
+            <td rowspan="2" colspan="2" style="background-color: greenyellow;">Lane
+                Swim<br>11:30-13:00</td>
+            <td rowspan="2" colspan="2" style="background-color: greenyellow;">Lane
+                Swim<br>11:30-13:00</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(177, 87, 87);">Parent
+                & Baby<br>12:00-12:45</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(177, 87,
+        87);">Aquacise<br>11:00-11:45</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="2" colspan="2" style="background-color: rgb(65, 231,
+        154)">Education Swimming Lessons</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(65, 231,
+        154);">Education Swimming Lessons</td>
+            <td rowspan="2" colspan="2" style="background-color: rgb(240, 127,
+        75);">Oldham Active Kids Swimming Lessons</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim</td>
+            <td rowspan="2" colspan="2" style="background-color: skyblue;">Public
+                Swim</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <h1>Table 5.6</h1>
+    <table border="2" style="border-color: green;">
+        <tr>
+            <td rowspan="3">Table 1</td>
+            <td colspan="2">Table 1
+                <table border="2" style="border-color: blue;">
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                    <tr>
+                        <td>Table 2</td>
+                        <td>Table 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td>Table 1</td>
+            <td colspan="2">Table 1</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <h1>Table 5.8</h1>
+    <table id="table5">
+        <tr class="first-row">
+            <td rowspan="3">1</td>
+            <td rowspan="2">&nbsp;</td>
+            <td colspan="2">&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr class="second-row">
+            <td>2</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="third-row">
+            <td colspan="2">3</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td rowspan="3">&nbsp;</td>
+        </tr>
+        <tr class="forth-row">
+            <td>4</td>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr class="fifth-row">
+            <td>5</td>
+            <td colspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr class="sixth-row">
+            <td>6</td>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr class="seventh-row">
+            <td rowspan="4">7</td>
+            <td rowspan="2" colspan="2">&nbsp;</td>
+            <td>&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr class="first-row">
+            <td rowspan="3">8</td>
+            <td rowspan="3" colspan="3">&nbsp;</td>
+        </tr>
+        <tr class="second-row">
+            <td>9</td>
+            <td></td>
+        </tr>
+        <tr class="third-row">
+            <td>10</td>
+            <td></td>
+        </tr>
+        <tr class="forth-row">
+            <td>11</td>
+            <td colspan="4">&nbsp;</td>
+            <td></td>
+            <td rowspan="2">&nbsp;</td>
+        </tr>
+        <tr class="fifth-row">
+            <td colspan="3">12</td>
+            <td>&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+        </tr>
+        <tr class="sixth-row">
+            <td colspan="3" rowspan="5">13</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="seventh-row">
+            <td>14</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="first-row">
+            <td>15</td>
+            <td>&nbsp;</td>
+            <td colspan="2" rowspan="2">&nbsp;</td>
+        </tr>
+        <tr class="second-row">
+            <td rowspan="3">16</td>
+            <td rowspan="3">&nbsp;</td>
+        </tr>
+        <tr class="second-row">
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr class="third-row">
+            <td>17</td>
+            <td colspan="2">&nbsp;</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr class="forth-row">
+            <td>18</td>
+            <td colspan="6">&nbsp;</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

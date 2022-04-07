@@ -1,0 +1,12 @@
+p {
+  color: red;
+  font-family: courier;
+  font-size: 150%;
+}
+body {
+  background-color: lightcoral;
+}
+div {
+  font-size: 150%;
+  color: darkslateblue;
+}
