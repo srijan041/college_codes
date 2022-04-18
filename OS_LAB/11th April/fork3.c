@@ -5,7 +5,7 @@
 int main()
 {
     int n = 10;
-    if (fork() == 0)
+    if ((fork() == 0))
     {
         printf("Child process: ");
         printf("%d\n", ++n);
