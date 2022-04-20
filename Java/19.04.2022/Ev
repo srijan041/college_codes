@@ -1,0 +1,29 @@
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.*;
+
+
+public class Ev extends Applet implements KeyListener{
+
+    public void init(){
+        addKeyListener(this);
+    }
+    public void keyReleased(KeyEvent e){
+        showStatus("Key is Released");
+    }
+
+    public void keyTyped(KeyEvent e){
+        showStatus("Key is Typed");
+    }
+
+    public void keyPressed(Keyevent e){
+        showStatus("Key is Pressed");
+    }
+
+    public void paint(Graphics g){
+        g.setColor(Color.blue);
+        g.drawString("KeyEvents", 20, 30);
+    }
+
+
+}
