@@ -10,3 +10,6 @@ div {
   font-size: 150%;
   color: darkslateblue;
 }
+div p{
+  color:yellow;
+}
