@@ -31,10 +31,13 @@ int main()
         }
     }
 
+
     for (int i = 0; i < evenCOunt; i++)
     {
         cout << evenArr[i] << " ";
     }
+
+
 
     for (int i = 0; i < oddCOunt; i++)
     {
